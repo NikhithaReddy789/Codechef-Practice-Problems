@@ -1,0 +1,17 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+//repository by Nikhitha Singireddy
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+	    Scanner IP=new Scanner(System.in);
+	    int IR=IP.nextInt();
+	    int C=IP.nextInt();
+	    int AR=IP.nextInt();
+	    int Res=(IR+AR)*C;
+	    System.out.println(Res);
+	}
+}
