@@ -1,0 +1,19 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+//Code by Nikhitha Singireddy
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner IP=new Scanner(System.in);
+		int T=IP.nextInt();
+		for(int i=0;i<T;i++){
+		    int num1=IP.nextInt();
+		    int num2=IP.nextInt();
+		    System.out.println(num1+num2);
+		}
+	}
+}
