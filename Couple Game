@@ -1,0 +1,21 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+//Code by Nikhitha Singireddy
+//Java Code
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+	    
+	    Scanner scan=new Scanner(System.in);
+	    int z=scan.nextInt();
+	    while(z-->0){
+	        int x=scan.nextInt();
+	        int y=scan.nextInt();
+	        System.out.println(y-x);
+	    }
+	}
+}
