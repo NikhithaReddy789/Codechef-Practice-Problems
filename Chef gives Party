@@ -1,0 +1,25 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Code by Nikhitha Singireddy
+code written in java */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner IP=new Scanner(System.in);
+		int T=IP.nextInt();
+		for(int i=0;i<T;i++){
+		    int friends=IP.nextInt();
+		    int cost=IP.nextInt();
+		    int Amount=IP.nextInt();
+		    if(Amount>=(friends*cost)){
+		        System.out.println("YES");
+		    }
+		    else{
+		        System.out.println("NO");
+		    }
+		}
+	}
+}
