@@ -1,0 +1,22 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+//Lnaguge used to solve is Java
+//Code by Nikhitha Singireddy
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner IP=new Scanner(System.in);
+		int T=IP.nextInt();
+		for(int i=0;i<T;i++){
+		    int L1=IP.nextInt();
+		    int L2=IP.nextInt();
+		    int C=IP.nextInt();
+		    int res=L1*2+L2*2;
+		    System.out.println(res*C);
+		}
+	}
+}
