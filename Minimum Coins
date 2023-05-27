@@ -1,0 +1,20 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Language used Java.
+Code by Nikhitha Singireddy */
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+	    Scanner IP=new Scanner(System.in);
+	    int T=IP.nextInt();
+	    for(int i=0;i<T;i++){
+	        int notes=IP.nextInt();
+	        System.out.println(notes%10);
+	    }
+      IP.close();
+	}
+}
